@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raghavendra Pandey | Final-Year CS Engineering &amp; SDE Fresher</title>
+  
+  <!-- Meta & SEO -->
+  <meta name="description" content="Portfolio of Raghavendra Pandey. Final-year Computer Engineering student at GLA University. Fresher actively seeking Full-Time SDE-1 roles and final-semester internships." />
+  <meta name="keywords" content="Raghavendra Pandey, SDE Fresher, Final Year CSE, GLA University, Full-Stack Developer, Computer Vision, React, Node.js, Python, PostgreSQL" />
+  <meta name="author" content="Raghavendra Pandey" />
+  <meta name="theme-color" content="#0d1117" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+  <!-- Typography: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- =========================================================
+       1. NAVIGATION BAR
+       ========================================================= -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand">
+        <span class="brand-badge">RP</span>
+        <span class="brand-text">raghavendra<span class="accent">.dev</span></span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#journey" class="nav-link">Learning Journey</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="Raghavendra_Pandey_Resume.pdf" download class="btn btn-outline btn-sm">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Resume.pdf</span>
+        </a>
+
+        <a href="#contact" class="btn btn-primary btn-sm">Get in Touch</a>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav class="mobile-nav">
+      <a href="#home" class="mobile-link">Home</a>
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#journey" class="mobile-link">Learning Journey</a>
+      <a href="#projects" class="mobile-link">Projects</a>
+      <a href="#skills" class="mobile-link">Skills</a>
+      <a href="#education" class="mobile-link">Education</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </nav>
+    <div class="mobile-cta-wrap">
+      <a href="Raghavendra_Pandey_Resume.pdf" download class="btn btn-outline w-full text-center">Download Resume (PDF)</a>
+      <a href="#contact" class="btn btn-primary w-full text-center">Send a Message</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- =========================================================
+         2. HERO SECTION
+         ========================================================= -->
+    <section class="hero-section" id="home">
+      <div class="section-container">
+        
+        <div class="hero-top-row">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span>Final-Year B.Tech &bull; Class of 2027 &bull; Open for Full-Time SDE-1 Roles &amp; Internships</span>
+          </div>
+          <div class="location-pill">
+            <span>📍 Mathura, UP, India (Open to Remote &amp; Relocation)</span>
+          </div>
+        </div>
+
+        <h1 class="hero-heading">
+          Hi, I'm Raghavendra Pandey.<br />
+          <span class="hero-highlight">Final-year Computer Engineering student &amp; SDE Fresher.</span>
+        </h1>
+
+        <p class="hero-bio">
+          I'm currently in my final year of B.Tech in Computer Science &amp; Engineering (Specializing in <strong>AI/ML &amp; IoT</strong>) at <strong>GLA University</strong>. As a fresher stepping into the industry, I've spent my college years building real-world software—from full-stack web applications with React, Node.js, and PostgreSQL to real-time computer vision systems with Python and OpenCV. Ready to contribute to engineering teams as an entry-level Software Engineer.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary btn-lg">
+            <span>View My Projects</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="Raghavendra_Pandey_Resume.pdf" download class="btn btn-outline btn-lg">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Download Resume</span>
+          </a>
+          <button class="btn btn-ghost btn-lg" id="btnCopyEmail" data-email="raghavendrapandey909@gmail.com">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            <span>Copy Email</span>
+          </button>
+        </div>
+
+        <!-- Social & Quick Credential Links -->
+        <div class="hero-social-strip">
+          <span class="strip-label">Profiles:</span>
+          <div class="strip-links">
+            <a href="https://github.com/Raghuvenom09" target="_blank" rel="noopener noreferrer" class="social-link-pill">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              <span>GitHub (Raghuvenom09)</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/raghavendra-pandey-b9133728b/" target="_blank" rel="noopener noreferrer" class="social-link-pill">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+
+            <a href="https://leetcode.com/u/raghavendrapandey909/" target="_blank" rel="noopener noreferrer" class="social-link-pill">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.214c.3-.3.619-.58.957-.84l4.276-4.193a1.377 1.377 0 0 0 .003-1.951A1.37 1.37 0 0 0 13.483 0zm2.593 6.852a1.38 1.38 0 0 0-.967.432l-2.584 2.584a1.38 1.38 0 0 0 0 1.953 1.38 1.38 0 0 0 1.953 0l2.584-2.584a1.38 1.38 0 0 0-.986-2.385zm3.688 3.688a1.38 1.38 0 0 0-.967.432l-2.584 2.584a1.38 1.38 0 0 0 0 1.953 1.38 1.38 0 0 0 1.953 0l2.584-2.584a1.38 1.38 0 0 0-.986-2.385z"/>
+              </svg>
+              <span>LeetCode</span>
+            </a>
+
+            <a href="mailto:raghavendrapandey909@gmail.com" class="social-link-pill">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>raghavendrapandey909@gmail.com</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         3. ABOUT / CONTEXT
+         ========================================================= -->
+    <section class="section" id="about">
+      <div class="section-container">
+        
+        <div class="section-heading-wrap">
+          <span class="subhead">About Me</span>
+          <h2 class="section-heading">How I think and what I care about</h2>
+        </div>
+
+        <div class="about-card-grid">
+          
+          <div class="about-main-text">
+            <p>
+              I got into programming because I wanted to build things that real people could interact with. As a student at GLA University, I quickly realized that building software isn't just about writing syntax—it's about understanding the problem, choosing the right tools, and handling the messy edge cases that happen in the real world.
+            </p>
+            <p>
+              Over the last two years, I've divided my time between three areas:
+            </p>
+            <ul class="about-points">
+              <li>
+                <strong>1. Solid Foundations:</strong> Solving algorithmic problems, writing clean Java and Python, and understanding data structure trade-offs.
+              </li>
+              <li>
+                <strong>2. Full-Stack Applications:</strong> Creating usable mobile-first web applications using React, Node.js, Express, and PostgreSQL, backed by automated Selenium tests.
+              </li>
+              <li>
+                <strong>3. Applied Computer Vision:</strong> Exploring real-time video feeds with OpenCV and MediaPipe—figuring out how to track human body landmarks and warp textures dynamically for virtual try-on and physical therapy feedback.
+              </li>
+            </ul>
+            <p>
+              As a final-year fresher entering the industry, I am actively seeking full-time Software Development Engineer (SDE-1) or graduate engineering roles, as well as final-semester 6-month internships, where I can write clean, tested code and contribute to real products.
+            </p>
+          </div>
+
+          <div class="about-sidebar">
+            <div class="info-block">
+              <span class="info-title">CURRENT STATUS</span>
+              <p class="info-value">Final Year B.Tech CSE (Fresher, Class of 2027)</p>
+            </div>
+            <div class="info-block">
+              <span class="info-title">UNIVERSITY</span>
+              <p class="info-value">GLA University, Mathura</p>
+            </div>
+            <div class="info-block">
+              <span class="info-title">ACADEMICS</span>
+              <p class="info-value">CPI: 6.9 / 10 &bull; 12th: 84% &bull; 10th: 77%</p>
+            </div>
+            <div class="info-block">
+              <span class="info-title">SPECIALIZATION</span>
+              <p class="info-value">Artificial Intelligence, Machine Learning &amp; IoT</p>
+            </div>
+            <div class="info-block">
+              <span class="info-title">OPPORTUNITIES SOUGHT</span>
+              <p class="info-value">Full-Time SDE-1 / Graduate Engineer / 6-Month Internships</p>
+            </div>
+            <div class="info-block">
+              <span class="info-title">DIRECT PHONE</span>
+              <p class="info-value">+91-9451035000</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         4. MY LEARNING JOURNEY (PHASES OF GROWTH)
+         ========================================================= -->
+    <section class="section section-alt" id="journey">
+      <div class="section-container">
+        
+        <div class="section-heading-wrap">
+          <span class="subhead">Academic &amp; Practical Growth</span>
+          <h2 class="section-heading">My 4-year engineering journey</h2>
+          <p class="section-intro">
+            How I progressed from writing my first lines of code to building full-stack platforms, computer vision pipelines, and preparing for industry roles.
+          </p>
+        </div>
+
+        <div class="journey-grid">
+          
+          <!-- Phase 1 -->
+          <div class="journey-card">
+            <div class="phase-tag">Phase 01</div>
+            <h3 class="phase-title">Core CS &amp; Algorithmic Foundations</h3>
+            <p class="phase-desc">
+              Started by learning the fundamentals of Computer Science in Java and C++. Focused on Object-Oriented Programming (OOP), recursion, memory management, and classic Data Structures (arrays, linked lists, trees, graphs).
+            </p>
+            <div class="phase-takeaways">
+              <span class="takeaway-chip">Java</span>
+              <span class="takeaway-chip">OOP</span>
+              <span class="takeaway-chip">DSA Problem Solving</span>
+              <span class="takeaway-chip">LeetCode Practice</span>
+              <span class="takeaway-chip">Apna College DSA Cert</span>
+            </div>
+          </div>
+
+          <!-- Phase 2 -->
+          <div class="journey-card">
+            <div class="phase-tag">Phase 02</div>
+            <h3 class="phase-title">Full-Stack Web &amp; Relational Databases</h3>
+            <p class="phase-desc">
+              Transitioned from terminal scripts to building real web applications. Learned how the client and server communicate via HTTP/REST, how to build user interfaces in React.js, and how to design schemas in PostgreSQL and MySQL.
+            </p>
+            <div class="phase-takeaways">
+              <span class="takeaway-chip">JavaScript (ES6+)</span>
+              <span class="takeaway-chip">React.js</span>
+              <span class="takeaway-chip">Node.js &amp; Express</span>
+              <span class="takeaway-chip">PostgreSQL</span>
+              <span class="takeaway-chip">REST APIs</span>
+              <span class="takeaway-chip">Selenium QA</span>
+            </div>
+          </div>
+
+          <!-- Phase 3 -->
+          <div class="journey-card">
+            <div class="phase-tag">Phase 03</div>
+            <h3 class="phase-title">Computer Vision &amp; Applied Machine Learning</h3>
+            <p class="phase-desc">
+              Dived into Python, OpenCV, and MediaPipe to work with images and live video streams. Figured out how to extract 33-point body landmarks, calculate joint angles with vector trigonometry, and perform real-time homography transformations.
+            </p>
+            <div class="phase-takeaways">
+              <span class="takeaway-chip">Python</span>
+              <span class="takeaway-chip">OpenCV</span>
+              <span class="takeaway-chip">MediaPipe</span>
+              <span class="takeaway-chip">TensorFlow</span>
+              <span class="takeaway-chip">Pose Estimation</span>
+              <span class="takeaway-chip">Google Cloud Vision</span>
+            </div>
+          </div>
+
+          <!-- Phase 4 -->
+          <div class="journey-card">
+            <div class="phase-tag">Phase 04 (Final Year)</div>
+            <h3 class="phase-title">Cloud, Production Testing &amp; Final-Year Polish</h3>
+            <p class="phase-desc">
+              Focusing on industry-grade engineering practices. Earned the Microsoft Azure Fundamentals (AZ-900) and Copado AI certifications, integrated automated regression testing with Selenium, and prepared real-world projects for production deployment.
+            </p>
+            <div class="phase-takeaways">
+              <span class="takeaway-chip">Final Year Prep</span>
+              <span class="takeaway-chip">Microsoft Azure (AZ-900)</span>
+              <span class="takeaway-chip">Copado AI</span>
+              <span class="takeaway-chip">Selenium QA</span>
+              <span class="takeaway-chip">Vercel Deployments</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         5. REAL PROJECTS (CASE STUDIES)
+         ========================================================= -->
+    <section class="section" id="projects">
+      <div class="section-container">
+        
+        <div class="section-heading-wrap">
+          <span class="subhead">Featured Projects</span>
+          <h2 class="section-heading">Things I've built and deployed</h2>
+          <p class="section-intro">
+            Each project here is deployed live on Vercel and backed by real code on GitHub. These are not tutorials—I designed and implemented them to solve specific technical challenges.
+          </p>
+
+          <div class="filter-row">
+            <button class="filter-pill active" data-filter="all">All Projects (3)</button>
+            <button class="filter-pill" data-filter="fullstack">Full-Stack &amp; OCR</button>
+            <button class="filter-pill" data-filter="vision">Computer Vision &amp; AI</button>
+          </div>
+        </div>
+
+        <div class="project-list">
+
+          <!-- PROJECT 1: BUDGET BIT -->
+          <article class="project-box" data-category="fullstack">
+            <div class="project-box-header">
+              <div class="project-title-group">
+                <span class="project-cat-badge">Full-Stack &bull; OCR &bull; PostgreSQL</span>
+                <h3 class="project-name">Budget Bit — Dish-Level Food Insight &amp; Expense Tracker</h3>
+              </div>
+              <div class="project-cta-group">
+                <a href="https://budgetbit.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <span>Live App</span>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a href="https://github.com/Raghuvenom09" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-story">
+              <div class="story-block">
+                <strong>Why I built this:</strong>
+                <p>
+                  Most expense tracking apps make you manually type out every single meal and line item. I wanted to see if I could eliminate that friction by allowing users to simply take a photo of a restaurant receipt and have the application automatically extract each dish and price.
+                </p>
+              </div>
+
+              <div class="story-block">
+                <strong>What I engineered:</strong>
+                <ul class="story-list">
+                  <li>Integrated the <strong>Google Cloud Vision API</strong> to build an OCR extraction pipeline that accurately recognizes dish names, quantities, and prices (~85% extraction accuracy).</li>
+                  <li>Designed REST API endpoints using <strong>Node.js and Express</strong>, writing normalized relational tables in <strong>PostgreSQL</strong> to store users, restaurant visits, itemized dishes, and spending history.</li>
+                  <li>Built a per-dish multi-vector rating system (taste, value, portion) so users can see what was actually worth ordering.</li>
+                  <li>Wrote automated end-to-end regression tests using <strong>Selenium</strong> covering user login, receipt upload, and budget calculation flows.</li>
+                </ul>
+              </div>
+
+              <div class="story-block">
+                <strong>Key challenge &amp; learning:</strong>
+                <p>
+                  Real receipts come in all formats—crinkled paper, faded thermal ink, and irregular line spacing. Learning how to clean and parse raw bounding-box text from the OCR response taught me a ton about data cleaning and defensive API design.
+                </p>
+              </div>
+            </div>
+
+            <div class="project-tags-wrap">
+              <span class="tech-chip">React</span>
+              <span class="tech-chip">Node.js</span>
+              <span class="tech-chip">Express.js</span>
+              <span class="tech-chip">PostgreSQL</span>
+              <span class="tech-chip">Google Cloud Vision</span>
+              <span class="tech-chip">Selenium QA</span>
+              <span class="tech-chip">Postman</span>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: AI VIRTUAL DRESSING ROOM -->
+          <article class="project-box" data-category="vision">
+            <div class="project-box-header">
+              <div class="project-title-group">
+                <span class="project-cat-badge">Computer Vision &bull; MediaPipe &bull; Pose Estimation</span>
+                <h3 class="project-name">AI Virtual Dressing Room — Real-Time Try-On System</h3>
+              </div>
+              <div class="project-cta-group">
+                <a href="https://ai-virtual-dressing-room.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <span>Live App</span>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a href="https://github.com/Raghuvenom09" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-story">
+              <div class="story-block">
+                <strong>Why I built this:</strong>
+                <p>
+                  Most virtual try-on software relies on heavy 3D rendering engines or proprietary hardware. I wanted to build a fast, lightweight 2D computer vision pipeline that runs smoothly in real time on any standard laptop webcam.
+                </p>
+              </div>
+
+              <div class="story-block">
+                <strong>What I engineered:</strong>
+                <ul class="story-list">
+                  <li>Implemented real-time <strong>33-point anatomical landmark detection</strong> using Google's MediaPipe Pose model, tracking shoulders, chest, and hips across changing lighting.</li>
+                  <li>Calculated torso aspect ratios and affine transformation matrices using <strong>NumPy and OpenCV</strong> to dynamically warp, scale, and composite garment images onto the user's live video stream.</li>
+                  <li>Engineered the entire computer vision pipeline solo: landmark extraction &rarr; bounding box calculation &rarr; perspective homography warp &rarr; alpha channel blending.</li>
+                </ul>
+              </div>
+
+              <div class="story-block">
+                <strong>Key challenge &amp; learning:</strong>
+                <p>
+                  Naive image resizing creates awkward stretching whenever the user moves closer or turns. Solving this required implementing vector calculations between shoulder and hip keypoints to maintain correct clothing proportions at 30+ FPS.
+                </p>
+              </div>
+            </div>
+
+            <div class="project-tags-wrap">
+              <span class="tech-chip">Python</span>
+              <span class="tech-chip">OpenCV</span>
+              <span class="tech-chip">MediaPipe</span>
+              <span class="tech-chip">NumPy</span>
+              <span class="tech-chip">Pose Estimation</span>
+              <span class="tech-chip">TensorFlow</span>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: REHAB AI -->
+          <article class="project-box" data-category="vision">
+            <div class="project-box-header">
+              <div class="project-title-group">
+                <span class="project-cat-badge">Computer Vision &bull; HealthTech &bull; React</span>
+                <h3 class="project-name">Rehab AI — AI-Powered Home Physical Therapy Coaching</h3>
+              </div>
+              <div class="project-cta-group">
+                <a href="https://rehabai-eta.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <span>Live App</span>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a href="https://github.com/Raghuvenom09" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-story">
+              <div class="story-block">
+                <strong>Why I built this:</strong>
+                <p>
+                  When patients do rehab exercises at home without a physical therapist watching, it's very easy to use bad form or fail to reach the proper range of motion, risking re-injury. I wanted to build an assistant that gives live feedback on exercise angles.
+                </p>
+              </div>
+
+              <div class="story-block">
+                <strong>What I engineered:</strong>
+                <ul class="story-list">
+                  <li>Built a kinematic angle calculator that determines the 3-point joint angle (e.g. hip-knee-ankle) dynamically across movement phases in real time.</li>
+                  <li>Configured visual and audio alerts: green when a patient hits proper range (e.g. squat depth &le; 90&deg;) and warning cues when posture deviates.</li>
+                  <li>Implemented automated repetition counting based on peak flexion and full extension cycles, eliminating the need to count reps manually.</li>
+                  <li>Wrapped the pipeline into a responsive web interface built with React.js.</li>
+                </ul>
+              </div>
+
+              <div class="story-block">
+                <strong>Key challenge &amp; learning:</strong>
+                <p>
+                  Camera feeds have noise: tiny landmark jitters can cause false angle measurements and incorrect rep triggers. I implemented exponential moving averages and angle threshold buffers to ensure reps are only counted on clean, intentional repetitions.
+                </p>
+              </div>
+            </div>
+
+            <div class="project-tags-wrap">
+              <span class="tech-chip">Python</span>
+              <span class="tech-chip">OpenCV</span>
+              <span class="tech-chip">OpenVINO / MediaPipe</span>
+              <span class="tech-chip">React.js</span>
+              <span class="tech-chip">Biomechanical Kinematics</span>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         6. TECHNICAL SKILLS & TOOLBOX
+         ========================================================= -->
+    <section class="section section-alt" id="skills">
+      <div class="section-container">
+        
+        <div class="section-heading-wrap">
+          <span class="subhead">Technical Toolbox</span>
+          <h2 class="section-heading">Technologies I use and understand</h2>
+          <p class="section-intro">
+            I believe in being honest about skills: no arbitrary "90% JavaScript" bars. Here is what I actively code with and how I categorize my stack.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <div class="skill-category">
+            <div class="cat-header">
+              <span class="cat-icon">💻</span>
+              <h3 class="cat-name">Languages</h3>
+            </div>
+            <div class="cat-body">
+              <span class="skill-pill">Java</span>
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">JavaScript (ES6+)</span>
+              <span class="skill-pill">TypeScript</span>
+              <span class="skill-pill">SQL</span>
+              <span class="skill-pill">HTML5 / CSS3</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="cat-header">
+              <span class="cat-icon">🌐</span>
+              <h3 class="cat-name">Web &amp; Full-Stack</h3>
+            </div>
+            <div class="cat-body">
+              <span class="skill-pill">React.js</span>
+              <span class="skill-pill">React Native</span>
+              <span class="skill-pill">Node.js</span>
+              <span class="skill-pill">Express.js</span>
+              <span class="skill-pill">RESTful APIs</span>
+              <span class="skill-pill">Responsive Design</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="cat-header">
+              <span class="cat-icon">🧠</span>
+              <h3 class="cat-name">Computer Vision &amp; AI</h3>
+            </div>
+            <div class="cat-body">
+              <span class="skill-pill">OpenCV</span>
+              <span class="skill-pill">MediaPipe</span>
+              <span class="skill-pill">TensorFlow</span>
+              <span class="skill-pill">Pose Estimation</span>
+              <span class="skill-pill">Scikit-learn</span>
+              <span class="skill-pill">NumPy / Vectorization</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="cat-header">
+              <span class="cat-icon">🗄️</span>
+              <h3 class="cat-name">Databases &amp; Cloud</h3>
+            </div>
+            <div class="cat-body">
+              <span class="skill-pill">PostgreSQL</span>
+              <span class="skill-pill">MongoDB</span>
+              <span class="skill-pill">MySQL</span>
+              <span class="skill-pill">Microsoft Azure (AZ-900)</span>
+              <span class="skill-pill">Google Cloud Vision</span>
+              <span class="skill-pill">Vercel</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="cat-header">
+              <span class="cat-icon">🛠️</span>
+              <h3 class="cat-name">Tools &amp; Testing</h3>
+            </div>
+            <div class="cat-body">
+              <span class="skill-pill">Git &amp; GitHub</span>
+              <span class="skill-pill">Selenium (Automated Testing)</span>
+              <span class="skill-pill">Postman</span>
+              <span class="skill-pill">Docker (Basics)</span>
+              <span class="skill-pill">VS Code</span>
+              <span class="skill-pill">IntelliJ IDEA</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="cat-header">
+              <span class="cat-icon">📐</span>
+              <h3 class="cat-name">Engineering Practices</h3>
+            </div>
+            <div class="cat-body">
+              <span class="skill-pill">Data Structures &amp; Algorithms</span>
+              <span class="skill-pill">Object-Oriented Programming (OOP)</span>
+              <span class="skill-pill">Automated Regression Testing</span>
+              <span class="skill-pill">Agile Principles</span>
+              <span class="skill-pill">Clean Git Commits</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         7. EDUCATION & CERTIFICATIONS
+         ========================================================= -->
+    <section class="section" id="education">
+      <div class="section-container">
+        
+        <div class="section-heading-wrap">
+          <span class="subhead">Credentials</span>
+          <h2 class="section-heading">Education &amp; Certifications</h2>
+        </div>
+
+        <div class="edu-grid">
+          
+          <!-- Education Column -->
+          <div class="edu-col">
+            <h3 class="block-heading">Formal Education</h3>
+
+            <div class="edu-card">
+              <div class="edu-card-top">
+                <span class="edu-degree">B.Tech in Computer Science &amp; Engineering (Final Year)</span>
+                <span class="edu-period">2023 – 2027</span>
+              </div>
+              <div class="edu-inst">GLA University, Mathura</div>
+              <div class="edu-spec">Specialization in AI/ML &amp; IoT &bull; Current CPI: <strong>6.9 / 10</strong> &bull; Graduating Batch of 2027</div>
+              <p class="edu-note">
+                Relevant Coursework: Data Structures &amp; Algorithms, Object-Oriented Programming, Database Management Systems, Computer Networks, Operating Systems, Machine Learning, Computer Vision.
+              </p>
+            </div>
+
+            <div class="edu-card">
+              <div class="edu-card-top">
+                <span class="edu-degree">Class XII (Senior Secondary)</span>
+                <span class="edu-period">Completed</span>
+              </div>
+              <div class="edu-inst">Science &amp; Mathematics Stream</div>
+              <div class="edu-spec">Board Score: <strong>84%</strong></div>
+            </div>
+
+            <div class="edu-card">
+              <div class="edu-card-top">
+                <span class="edu-degree">Class X (Secondary School)</span>
+                <span class="edu-period">Completed</span>
+              </div>
+              <div class="edu-inst">High School Curriculum</div>
+              <div class="edu-spec">Board Score: <strong>77%</strong></div>
+            </div>
+          </div>
+
+          <!-- Certifications Column -->
+          <div class="certs-col">
+            <h3 class="block-heading">Verified Certifications</h3>
+
+            <div class="cert-item">
+              <div class="cert-icon-wrap">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#58a6ff" stroke-width="2">
+                  <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+                </svg>
+              </div>
+              <div>
+                <span class="cert-org">Microsoft</span>
+                <h4 class="cert-name">Microsoft Certified: Azure Fundamentals (AZ-900)</h4>
+                <p class="cert-text">Validated understanding of cloud concepts, Azure core services, security, privacy, and compliance.</p>
+              </div>
+            </div>
+
+            <div class="cert-item">
+              <div class="cert-icon-wrap">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7ee787" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polygon points="12 8 8 12 12 16 16 12 12 8"></polygon>
+                </svg>
+              </div>
+              <div>
+                <span class="cert-org">Copado</span>
+                <h4 class="cert-name">Copado Certified: Copado AI</h4>
+                <p class="cert-text">AI test automation, intelligent testing frameworks, and enterprise release management.</p>
+              </div>
+            </div>
+
+            <div class="cert-item">
+              <div class="cert-icon-wrap">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#58a6ff" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <span class="cert-org">Apna College</span>
+                <h4 class="cert-name">Data Structures and Algorithms</h4>
+                <p class="cert-text">Algorithmic complexity, recursion, dynamic programming, trees, and graphs.</p>
+              </div>
+            </div>
+
+            <div class="cert-item">
+              <div class="cert-icon-wrap">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#58a6ff" stroke-width="2">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                </svg>
+              </div>
+              <div>
+                <span class="cert-org">Apna College</span>
+                <h4 class="cert-name">Full Stack Web Development</h4>
+                <p class="cert-text">Hands-on mastery of React, Node.js, Express, databases, and REST architectures.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         8. CONTACT SECTION
+         ========================================================= -->
+    <section class="section section-alt" id="contact">
+      <div class="section-container">
+        
+        <div class="section-heading-wrap">
+          <span class="subhead">Opportunities</span>
+          <h2 class="section-heading">Let's talk about full-time roles &amp; internships</h2>
+          <p class="section-intro">
+            As a final-year fresher graduating with the Class of 2027, I am actively interviewing for <strong>Full-Time Software Engineer / SDE-1 roles</strong> and final-semester 6-month internships. Ready for immediate technical rounds and open to relocation or remote positions.
+          </p>
+        </div>
+
+        <div class="contact-card-wrap">
+          
+          <div class="contact-info-side">
+            <h3 class="contact-side-title">Direct Information</h3>
+            
+            <div class="contact-row">
+              <span class="c-label">Email:</span>
+              <a href="mailto:raghavendrapandey909@gmail.com" class="c-val">raghavendrapandey909@gmail.com</a>
+            </div>
+
+            <div class="contact-row">
+              <span class="c-label">Phone:</span>
+              <span class="c-val">+91-9451035000</span>
+            </div>
+
+            <div class="contact-row">
+              <span class="c-label">Location:</span>
+              <span class="c-val">Mathura, Uttar Pradesh, India</span>
+            </div>
+
+            <div class="contact-row">
+              <span class="c-label">Availability:</span>
+              <span class="c-val text-green">&bull; Full-Time SDE-1 &amp; 6-Month Internships (2027 Batch)</span>
+            </div>
+
+            <div class="contact-side-actions">
+              <button class="btn btn-primary btn-sm" id="btnCopyEmailSide" data-email="raghavendrapandey909@gmail.com">
+                Copy Email to Clipboard
+              </button>
+              <a href="Raghavendra_Pandey_Resume.pdf" download class="btn btn-outline btn-sm">
+                Download Resume PDF
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form-side">
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-row-2">
+                <div class="form-field">
+                  <label for="cName">Your Name *</label>
+                  <input type="text" id="cName" name="name" required placeholder="e.g. Sarah Jenkins" />
+                </div>
+                <div class="form-field">
+                  <label for="cEmail">Your Email *</label>
+                  <input type="email" id="cEmail" name="email" required placeholder="e.g. sarah@company.com" />
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="cSubject">Subject *</label>
+                <input type="text" id="cSubject" name="subject" required placeholder="e.g. SDE Internship Opportunity at [Company]" />
+              </div>
+
+              <div class="form-field">
+                <label for="cMessage">Message *</label>
+                <textarea id="cMessage" name="message" rows="4" required placeholder="Tell me a bit about your team, role, or project..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary w-full" id="btnSendMsg">
+                <span>Send Message</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+       9. FOOTER
+       ========================================================= -->
+  <footer class="footer">
+    <div class="section-container footer-flex">
+      <div>
+        <span class="footer-logo">Raghavendra Pandey</span>
+        <p class="footer-desc">Final-Year Computer Engineering Student &amp; SDE Fresher &bull; GLA University (Class of 2027).</p>
+      </div>
+
+      <div class="footer-links-wrap">
+        <a href="https://github.com/Raghuvenom09" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/raghavendra-pandey-b9133728b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://leetcode.com/u/raghavendrapandey909/" target="_blank" rel="noopener noreferrer">LeetCode</a>
+        <a href="mailto:raghavendrapandey909@gmail.com">Email</a>
+        <a href="Raghavendra_Pandey_Resume.pdf" download>Resume</a>
+      </div>
+    </div>
+    <div class="section-container footer-sub">
+      <span>&copy; <span id="year">2026</span> Raghavendra Pandey. Built with clean HTML, CSS &amp; vanilla JS.</span>
+      <span>GLA University &bull; Batch of 2027</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
